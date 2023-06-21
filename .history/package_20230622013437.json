@@ -1,0 +1,28 @@
+{
+  "name": "nodeexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DungBuiTuan/Nodejs_Learning.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Bui Tuan Dung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DungBuiTuan/Nodejs_Learning/issues"
+  },
+  "homepage": "https://github.com/DungBuiTuan/Nodejs_Learning#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
