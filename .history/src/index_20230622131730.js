@@ -13,10 +13,15 @@ app.use(morgan('combined'))
 //template engine
 app.engine('handlebars', handlebars.engine());
 app.set('view engine', 'handlebars');
-app.set('views',path.join(__dirname, 'resources\\views'));
+app.set('views',path.join(__dirname, 'resources\\views\\layouts'));
 
-app.get("/", (req, res) => {
-	res.render("home");
+
+app.get("/static", (req, res) => {
+  res.render("static");
+});
+
+app.get('/', (req, res, next) => {
+  res.render('main', {layout: false});
 });
 
 

@@ -1,0 +1,7 @@
+@import 'variable';
+
+h1{
+    color: $h1_color;
+    box-shadow: inset;
+    font-style: oblique;
+}
