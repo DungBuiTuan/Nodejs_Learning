@@ -3,7 +3,11 @@ const morgan = require("morgan");
 const handlebars = require("express-handlebars");
 const path = require("path");
 const app = express();
+const db = require('./config/db')
 const port = 3000;
+
+//connect db
+db.connect();
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join("img")));

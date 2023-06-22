@@ -21,7 +21,7 @@ app.get("/collection", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.render("home");
+  res.render("main");
 });
 
 app.listen(port, () => {

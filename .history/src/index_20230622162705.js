@@ -1,4 +1,5 @@
 const express = require("express");
+const mongoose = require('mongoose');
 const morgan = require("morgan");
 const handlebars = require("express-handlebars");
 const path = require("path");
